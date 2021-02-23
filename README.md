@@ -1,8 +1,31 @@
-# Genetic_algorithms
+#Genetic Algorithms 
 
-SInce cells are the basic building blocks of every living being all the living being =s have chromosomes in their dna. If the chromosomes are represented in binary strings as 0's and 1's then they encode specific traits. 
-According to Darwin's Theory of Natural Selection the living organisms that are adjusted to change in the environment are the strongest due to natural adaptation.
-We can understand the topic in more detail by solving the Knapsack problem in the link https://www.hackerearth.com/practice/notes/the-knapsack-problem/
-The crossover of the two parent species and the mutation of the offspring along with their adaptation to the changes result in a successful genetic algorithm.
-We are using TPOT library ie; tree based pipeline optimisation technique built on scikit learn lib.
-Here in the given program we are going to analyze the genetic algorithms to the gamma radiation.
+This is the code for Genetic Algorithms by @Sirajology on Youtube. In this demo code we use the MAGIC Gamma Telescope dataset to build a classifer. The classifier will train on the dataset and then be able to classify whether or not some energy is either Gamma Radiation or Hadron Radiation. Instead of guessing and checking the best ML model and hyperparameters to use, we use a genetic programming library called tpot to do that for us by trying out a bunch of them. 
+
+### Code and Resources Used
+
+**Language:** Python 3.8
+
+**Dataset:** [MAGIC Gamma Telescope Dataset](https://archive.ics.uci.edu/ml/datasets/MAGIC+Gamma+Telescope)
+
+**Libraries and Modules:** Numpy, tpot, scikit-learn, pandas
+
+**Keywords:** Classification, tpot, radiation, machine learning
+
+**Procedure**
+
+**Step 1:** Download this MAGIC GAMMA telescope Dataset. Clean the data from the csv file and check if there is any missing or irrelevant data.
+
+**Step 2:** Use TPOT and built an Machine Learning classification Pipleine for sorting it in 2 classes.
+
+**Step 3:** Split training, testing, and validation data. 
+
+**Step 4:** Let Genetic Programming find best ML model and hyperparameters
+
+**Step 5:** Export Generated accuracy score. 
+
+**References:**
+
+1. https://www.youtube.com/watch?v=dSofAXnnFrY
+2. https://github.com/nhrigby/genetic_algorithm_challenge
+3. https://github.com/llSourcell/genetic_algorithm_challenge
